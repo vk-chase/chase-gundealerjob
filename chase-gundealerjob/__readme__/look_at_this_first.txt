@@ -1,0 +1,68 @@
+###  Add to qb-management / client / cl_config.lua
+#########################################################
+
+Config.BossMenus
+
+    ['guncrafter'] = {
+        vector3(11.54, -1108.4, 29.8),   ---------in office extension at the desk
+    },
+
+
+#########################################################
+
+Config.BossMenuZones
+
+    ['guncrafter'] = {
+        { coords = vector3(11.54, -1108.4, 29.8), length = 1.0, width = 1.0, heading = 63.21, minZ = 29, maxZ = 31 },
+    },
+
+#########################################################
+##  Add to qb-core/shared/jobs.lua
+#########################################################
+
+
+
+	['guncrafter'] = {
+		label = 'Gun Dealer',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 75
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 100
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 125
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
+
+
+#########################################################
+### Add to your DATABASE phpmyadmin
+#########################################################
+
+INSERT INTO `management_funds` (`id`, `job_name`, `amount`, `type`) VALUES
+(102, 'guncrafter', 0, 'boss');
+
+#########################################################
+### Add the gunjob_doorlocks.lua to your  qb-doorlocks / config folder (drag and drop thats it)
+#########################################################
+
+
+## ALL ITEMS CRAFTED ARE INCLUDED IN QBCORE, SO NO ITEMS OR PNGS NEEDED! ENJOY
+
