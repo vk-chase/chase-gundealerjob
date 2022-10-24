@@ -10,7 +10,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft1', function()
         {
             id = 2,
             header = "| Taser |",
-            txt = " 20 Rubber | 20 Glass | 20 Iron | 20 Copper ",
+            txt = " Items Needed: <br>20 Rubber, <br>20 Glass, <br>20 Iron, <br>20 Copper! ",
             params = {
                 event = "gundealer:Gun1",
             }
@@ -18,7 +18,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft1', function()
         {
             id = 3,
             header = "| Combat Pistol |",
-            txt = " 70 Rubber | 70 Glass | 70 Iron | 70 Copper ",
+            txt = " Items Needed: <br>70 Rubber, <br>70 Glass, <br>70 Iron, <br>70 Copper! ",
             params = {
                 event = "gundealer:Gun1",
             }
@@ -26,7 +26,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft1', function()
         {
             id = 4,
             header = "| AP Pistol |",
-            txt = " 70 Rubber | 70 Glass | 70 Iron | 70 Copper ",
+            txt = " Items Needed: <br>70 Rubber, <br>70 Glass, <br>70 Iron, <br>70 Copper! ",
             params = {
                 event = "gundealer:Gun3",
             }
@@ -34,7 +34,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft1', function()
         {
             id = 2,
             header = "| 50 DE |",
-            txt = " 350 Rubber | 350 Glass | 350 Iron | 350 Copper ",
+            txt = " Items Needed: <br>350 Rubber, <br>350 Glass, <br>350 Iron, <br>350 Copper! ",
             params = {
                 event = "gundealer:Gun4",
             }
@@ -69,7 +69,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft2', function()
         {
             id = 2,
             header = "| Bullpup Shotgun |",
-            txt = " 120 Rubber | 120 Glass | 120 Iron | 120 Copper ",
+            txt = " Items Needed: <br>120 Rubber, <br>120 Glass, <br>120 Iron, <br>120 Copper! ",
             params = {
                 event = "gundealer:Gun5",
             }
@@ -77,7 +77,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft2', function()
         {
             id = 3,
             header = "| Combat Shotgun |",
-            txt = " 120 Rubber | 120 Glass | 120 Iron | 120 Copper ",
+            txt = " Items Needed: <br>120 Rubber, <br>120 Glass, <br>120 Iron, <br>120 Copper! ",
             params = {
                 event = "gundealer:Gun6",
             }
@@ -108,7 +108,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft3', function()
         {
             id = 2,
             header = "| Tec9 |",
-            txt = " 150 Rubber | 150 Glass | 150 Iron | 150 Copper ",
+            txt = " Items Needed: <br>150 Rubber, <br>150 Glass, <br>150 Iron, <br>150 Copper! ",
             params = {
                 event = "gundealer:Gun7",
             }
@@ -116,7 +116,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft3', function()
         {
             id = 3,
             header = "| SMG |",
-            txt = " 200 Rubber | 200 Glass | 200 Iron | 200 Copper ",
+            txt = " Items Needed: <br>200 Rubber, <br>200 Glass, <br>200 Iron, <br>200 Copper! ",
             params = {
                 event = "gundealer:Gun8",
             }
@@ -146,7 +146,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft4', function()
         {
             id = 2,
             header = "| Military Rifle |",
-            txt = " 120 Rubber | 120 Glass | 120 Iron | 120 Copper ",
+            txt = " Items Needed: <br>120 Rubber, <br>120 Glass, <br>120 Iron, <br>120 Copper! ",
             params = {
                 event = "gundealer:Gun9",
             }
@@ -154,7 +154,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft4', function()
         {
             id = 3,
             header = "| Compact Rifle-DRACO |",
-            txt = " 120 Rubber | 120 Glass | 120 Iron | 120 Copper ",
+            txt = " Items Needed: <br>120 Rubber, <br>120 Glass, <br>120 Iron, <br>120 Copper! ",
             params = {
                 event = "gundealer:Gun10",
             }
@@ -162,7 +162,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft4', function()
         {
             id = 4,
             header = "| Special Carbine |",
-            txt = " 150 Rubber | 150 Glass | 150 Iron | 150 Copper ",
+            txt = " Items Needed: <br>150 Rubber, <br>150 Glass, <br>150 Iron, <br>150 Copper! ",
             params = {
                 event = "gundealer:Gun11",
             }
@@ -170,7 +170,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft4', function()
         {
             id = 5,
             header = "| Advanced Rifle |",
-            txt = " 200 Rubber | 200 Glass | 200 Iron | 200 Copper ",
+            txt = " Items Needed: <br>200 Rubber, <br>200 Glass, <br>200 Iron, <br>200 Copper! ",
             params = {
                 event = "gundealer:Gun12",
             }
@@ -178,7 +178,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft4', function()
         {
             id = 6,
             header = "| Heavy Sniper MkII |",
-            txt = " 250 Rubber | 250 Glass | 250 Iron | 250 Copper ",
+            txt = " Items Needed: <br>250 Rubber, <br>250 Glass, <br>250 Iron, <br>250 Copper! ",
             params = {
                 event = "gundealer:Gun13",
             }
