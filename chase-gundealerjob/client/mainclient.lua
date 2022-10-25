@@ -1,4 +1,25 @@
 local QBCore = exports['qb-core']:GetCoreObject()
+local spawned = false
+
+RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
+    QBCore.Functions.GetPlayerData(function(PlayerData)
+        PlayerJob = PlayerData.job
+		if PlayerData.job.onduty then
+			if PlayerData.job.name == "guncrafter" then
+				TriggerServerEvent("QBCore:ToggleDuty")
+			end
+		end
+	end)
+end)
+
+RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
+    PlayerJob = JobInfo
+    onDuty = PlayerJob.onduty
+end)
+
+RegisterNetEvent("guncrafterduty:client:DutyToggle", function()
+    TriggerServerEvent("QBCore:ToggleDuty")
+end)
 
 local function crafingguns()
      TriggerEvent('animations:client:EmoteCommandStart', { "think" })
