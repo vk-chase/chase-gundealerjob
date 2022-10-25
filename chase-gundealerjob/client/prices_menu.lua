@@ -9,22 +9,22 @@ RegisterNetEvent('gundealer:OpenMenuCraft11', function()
         },
         {
             id = 2,
-            header = "| Taser | $2,500 |",
+            header = "| Taser:<br> $2,500 |",
             isMenuHeader = true
         },
         {
             id = 3,
-            header = "| Combat Pistol | $4,500 |",
+            header = "| Combat Pistol:<br> $4,500 |",
             isMenuHeader = true
         },
         {
             id = 4,
-            header = "| AP Pistol | $5,000 |",
+            header = "| AP Pistol:<br> $5,000 |",
             isMenuHeader = true
         },
         {
             id = 2,
-            header = "| 50 DE | $6,000 |",
+            header = "| 50 DE:<br> $6,000 |",
             isMenuHeader = true
         },
     })
@@ -47,12 +47,12 @@ RegisterNetEvent('gundealer:OpenMenuCraft22', function()
         },
         {
             id = 2,
-            header = "| Bullpup Shotgun | $14,000 |",
+            header = "| Bullpup Shotgun:<br> $14,000 |",
             isMenuHeader = true
         },
         {
             id = 3,
-            header = "| Combat Shotgun | $11,500 |",
+            header = "| Combat Shotgun:<br> $11,500 |",
             isMenuHeader = true
         },
     })
@@ -71,12 +71,12 @@ RegisterNetEvent('gundealer:OpenMenuCraft33', function()
         },
         {
             id = 2,
-            header = "| Tec9 | $7,500 |",
+            header = "| Tec9:<br> $7,500 |",
             isMenuHeader = true
         },
         {
             id = 3,
-            header = "| SMG | $12,000 |",
+            header = "| SMG:<br> $12,000 |",
             isMenuHeader = true
         },
 
@@ -95,27 +95,27 @@ RegisterNetEvent('gundealer:OpenMenuCraft44', function()
         },
         {
             id = 2,
-            header = "| Military Rifle | $30,000 |",
+            header = "| Military Rifle:<br> $30,000 |",
             isMenuHeader = true
         },
         {
             id = 3,
-            header = "| Compact Rifle-DRACO | $32,000 |",
+            header = "| Compact Rifle-DRACO:<br> $32,000 |",
             isMenuHeader = true
         },
         {
             id = 4,
-            header = "| Special Carbine | $34,000 |",
+            header = "| Special Carbine:<br> $34,000 |",
             isMenuHeader = true
         },
         {
             id = 5,
-            header = "| Advanced Rifle | $35,000 |",
+            header = "| Advanced Rifle:<br> $35,000 |",
             isMenuHeader = true
         }, 
         {
             id = 6,
-            header = "| Heavy Sniper MkII | $100,000 |",
+            header = "| Heavy Sniper MkII:<br> $100,000 |",
             isMenuHeader = true
         },       
     })
