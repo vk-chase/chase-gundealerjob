@@ -1,4 +1,25 @@
 Citizen.CreateThread(function()
+    exports['qb-target']:AddBoxZone("GundealerDuty", vector3(11.83, -1107.48, 29.8), 1, 1, {
+        name="GundealerDuty",
+        heading= 73.33,
+        debugPoly=false,
+        minZ = 29,
+        maxZ = 31,
+        }, {
+            options = {
+                {
+                    type = "client",
+                    event = "guncrafterduty:client:DutyToggle",
+                    icon = "fas fa-clipboard",
+                    label = "DUTY LOG",
+                    job = "guncrafter",   ---change to whatever your gundealer job name is , or delete to leave it open.
+                },
+            },
+            distance = 2
+    })
+end)
+
+Citizen.CreateThread(function()
     exports['qb-target']:AddBoxZone("GundealerCraft", vector3(22.41, -1106.18, 29.8), 1, 1, {
         name="GundealerCraft",
         heading= 339.9,
