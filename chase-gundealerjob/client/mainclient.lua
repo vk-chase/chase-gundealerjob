@@ -20,6 +20,8 @@ end)
 RegisterNetEvent("guncrafterduty:client:DutyToggle", function()
     TriggerServerEvent("QBCore:ToggleDuty")
 end)
+
+
 local function crafingguns()
      TriggerEvent('animations:client:EmoteCommandStart', { "think" })
      QBCore.Functions.Notify("WHERE TO START..", "success")
@@ -57,8 +59,6 @@ local function crafingguns()
      QBCore.Functions.Notify("STILL A LITTLE HOT!", "success")
      TriggerEvent('animations:client:EmoteCommandStart', {"c"})
 end
-
-
 
 
 RegisterNetEvent('gundealer:Gun1')
@@ -258,6 +258,301 @@ AddEventHandler("gundealer:Gun13", function()
     end)    
 end)
 
+--NOOBY ADDITION
+
+--[[
+## Credits
+- Original Model Makers (gta5mods)
+- Xandrice
+- LeSiiN
+- NoobySloth
+- Castar
+]]--
+
+RegisterNetEvent('gundealer:Gun14')
+AddEventHandler("gundealer:Gun14", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING AK47...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns14")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun15')
+AddEventHandler("gundealer:Gun15", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING M70...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns15")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun16')
+AddEventHandler("gundealer:Gun16", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING DESERT EAGLE...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns16")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun17')
+AddEventHandler("gundealer:Gun17", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING FNX-45...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns17")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun18')
+AddEventHandler("gundealer:Gun18", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING GLOCK 17...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns18")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun19')
+AddEventHandler("gundealer:Gun19", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING M4...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns19")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun20')
+AddEventHandler("gundealer:Gun20", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING M9...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns20")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun21')
+AddEventHandler("gundealer:Gun21", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING M 1911...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns21")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun22')
+AddEventHandler("gundealer:Gun22", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING UZI...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns22")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun23')
+AddEventHandler("gundealer:Gun23", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING MAC 10...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns23")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun24')
+AddEventHandler("gundealer:Gun24", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING MOSSBERG SHOTGUN...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns24")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun25')
+AddEventHandler("gundealer:Gun25", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING REMINGTON SHOTGUN...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns25")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun26')
+AddEventHandler("gundealer:Gun26", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING SCAR H...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns26")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun27')
+AddEventHandler("gundealer:Gun27", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING AR 15...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns27")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun28')
+AddEventHandler("gundealer:Gun28", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING MK 14...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns28")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun29')
+AddEventHandler("gundealer:Gun29", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING HUNTINGRIFLE...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns29")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun30')
+AddEventHandler("gundealer:Gun30", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING MP9...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns30")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun31')
+AddEventHandler("gundealer:Gun31", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING M 110...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns31")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
+
+RegisterNetEvent('gundealer:Gun32')
+AddEventHandler("gundealer:Gun32", function()
+   	local playerPed = PlayerPedId()
+           crafingguns()
+           QBCore.Functions.Progressbar('name_here', 'GRABBING HK 416...', 2500, false, true, {
+           disableMovement = true,
+           disableCarMovement = true,
+           disableMouse = false,
+           disableCombat = true,
+           }, {}, {}, {}, function()
+        TriggerServerEvent("gundealer:ChaseGuns32")
+        ClearPedTasks(PlayerPedId())
+    end)    
+end)
 
 
 
