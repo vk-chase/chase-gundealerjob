@@ -1,3 +1,18 @@
+https://github.com/NoobySloth/Custom-Weapons
+
+now set up for use with the new custom weapons from NoobySlot!
+
+this is optional, the guns listed can be removed by you, or just be ignored.
+
+
+
+
+######################
+-- below is mandatory
+######################
+
+
+
 ###  Add to qb-management / client / cl_config.lua
 #########################################################
 
