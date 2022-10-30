@@ -20,7 +20,7 @@ RegisterNetEvent('gundealer:OpenMenuCraft1', function()
             header = "| Combat Pistol |",
             txt = " Items Needed: <br>70 Rubber, <br>70 Glass, <br>70 Iron, <br>70 Copper! ",
             params = {
-                event = "gundealer:Gun1",
+                event = "gundealer:Gun2",
             }
         },
         {
