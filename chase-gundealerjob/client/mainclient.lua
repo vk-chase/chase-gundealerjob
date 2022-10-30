@@ -71,7 +71,7 @@ AddEventHandler("gundealer:Gun1", function()
            disableMouse = false,
            disableCombat = true,
            }, {}, {}, {}, function()
-        TriggerServerEvent("gundealer:ChaseGuns2")
+        TriggerServerEvent("gundealer:ChaseGuns1")
         ClearPedTasks(PlayerPedId())
     end)    
 end)
