@@ -74,10 +74,3 @@ Config.BossMenuZones
 INSERT INTO `management_funds` (`id`, `job_name`, `amount`, `type`) VALUES
 (102, 'guncrafter', 0, 'boss');
 
-#########################################################
-### Add the gunjob_doorlocks.lua to your  qb-doorlocks / config folder (drag and drop thats it)
-#########################################################
-
-
-## ALL ITEMS CRAFTED ARE INCLUDED IN QBCORE, SO NO ITEMS OR PNGS NEEDED! ENJOY
-
