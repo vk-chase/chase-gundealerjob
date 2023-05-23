@@ -23,8 +23,8 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
 end)
 
 Citizen.CreateThread(function()
-        local blip = AddBlipForCoord(Config.BlipCoord)                         --vector3(15.88, -1120.38, 28.83) ammunation by PDM
-            SetBlipSprite(blip, Config.BlipDisplay)
+        local blip = AddBlipForCoord(Config.BlipCoord)
+	    SetBlipSprite(blip, Config.BlipDisplay)
 	    SetBlipDisplay(blip, 4)
 	    SetBlipScale(blip, Config.BlipScale)
 	    SetBlipAsShortRange(blip, Config.Blips)
