@@ -1,12 +1,3 @@
-https://github.com/NoobySloth/Custom-Weapons
-
-now set up for use with the new custom weapons from NoobySlot!
-
-this is optional, the guns listed can be removed by you, or just be ignored.
-
-
-
-
 ######################
 -- below is mandatory
 ######################
@@ -19,7 +10,7 @@ this is optional, the guns listed can be removed by you, or just be ignored.
 Config.BossMenus
 
     ['guncrafter'] = {
-        vector3(11.54, -1108.4, 29.8),   ---------in office extension at the desk
+        vector3(808.16, -2156.39, 29.62),   ---------in office extension at the desk
     },
 
 
@@ -28,7 +19,7 @@ Config.BossMenus
 Config.BossMenuZones
 
     ['guncrafter'] = {
-        { coords = vector3(11.54, -1108.4, 29.8), length = 1.0, width = 1.0, heading = 63.21, minZ = 29, maxZ = 31 },
+        { coords = vector3(808.16, -2156.39, 29.62), length = 1.0, width = 1.0, heading = 63.21, minZ = 29, maxZ = 31 },
     },
 
 #########################################################
@@ -72,5 +63,5 @@ Config.BossMenuZones
 #########################################################
 
 INSERT INTO `management_funds` (`id`, `job_name`, `amount`, `type`) VALUES
-(102, 'guncrafter', 0, 'boss');
+(991, 'guncrafter', 0, 'boss');
 
