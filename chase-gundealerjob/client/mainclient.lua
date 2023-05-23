@@ -15,7 +15,7 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     QBCore.Functions.GetPlayerData(function(PlayerData)
         PlayerJob = PlayerData.job
 		if PlayerData.job.onduty then
-			if PlayerData.job.name == "guncrafter" then
+			if PlayerData.job.name == ""..Config.JobRequired.."" then
 				TriggerServerEvent("QBCore:ToggleDuty")
 			end
 		end
