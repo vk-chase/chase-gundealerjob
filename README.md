@@ -1,6 +1,8 @@
 # chase-gundealerjob
 qbcore gundealer job
 
+https://discord.gg/E82N7HXmZr 
+
 video:
 
 https://youtu.be/pGHn7a6akQQ - outdated from V1  but same concept just cleaned up alot and added alot of config options!
