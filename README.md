@@ -1,7 +1,7 @@
 # chase-gundealerjob
 qbcore gundealer job
 
-https://discord.gg/E82N7HXmZr 
+https://discord.gg/S7UqrJMHBj
 
 video:
 
